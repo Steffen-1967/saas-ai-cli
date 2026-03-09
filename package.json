@@ -1,0 +1,14 @@
+{
+  "name": "saas-ai-cli",
+  "version": "1.0.0",
+  "description": "Node-CLI-Tool",
+  "type": "module",
+  "bin": {
+    "saas-ai": "./cli.mjs"
+  },
+  "scripts": {
+    "dev": "node ./cli.mjs"
+  },
+  "author": "Steffen Ploetz",
+  "license": "ISC"
+}
