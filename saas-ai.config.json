@@ -1,0 +1,39 @@
+{
+  "instruction": "Verbessere diesen Code und mache ihn lesbarer.",
+  "fileTypes": {
+    "*.ts": {
+      "model": "meta-llama/llama-3-8b-instruct"
+    },
+    "*.mts": {
+      "model": "mistralai/mistral-7b-instruct"
+    }
+  },
+  "files": [
+    "**/*.ts",
+    "**/*.mts"
+  ],
+  "ignore": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    "**/*.d.ts"
+  ],
+  "modes": {
+    "refactor": {
+      "instruction": "Refaktoriere diesen Code für bessere Lesbarkeit und Struktur.",
+      "files": ["**/*.ts", "**/*.mts"]
+    },
+    "docs": {
+      "instruction": "Erstelle ausführliche Dokumentation für diesen Code.",
+      "files": ["**/*.ts"]
+    },
+    "optimize": {
+      "instruction": "Optimiere diesen Code für Performance und Effizienz.",
+      "files": ["**/*.ts", "**/*.mts"]
+    },
+    "explain": {
+      "instruction": "Erkläre ausführlich, was dieser Code macht.",
+      "files": ["**/*.ts", "**/*.mts"]
+    }
+  }
+}
