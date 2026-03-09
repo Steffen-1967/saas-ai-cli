@@ -58,3 +58,9 @@ It has been extended so that<br/>
 --> ```saas-ai refactor --dry```<br/>
 --> ```saas-ai src/**/*.ts --dry```<br/>
 --> ```saas-ai optimize "make the code more performant" --dry```
+
+## Application
+This CLI is globally available with the call ```saas-ai```.<br/>
+It has been tested with the _Windows PowerShell_.<br/>
+It should be called from the root-folder of the project, that hosts the code to apply the CLI on.<br/>
+--> ```saas-ai .\src\visualizer\flow-visualizer.mts "Schreibe code, der .\src\visualizer\test-daten.json in den Speicher liest."```
